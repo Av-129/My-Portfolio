@@ -1,3 +1,13 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+
+}
 #title {
   background: #ff4c68;
   padding: 3% 15% 7%;
