@@ -236,6 +236,7 @@ width:100%;
   top: 11px;
   position: absolute;
   background: #e8eeff;
+  float: right;
 
 }
 .btn-link.collapsed:after{
