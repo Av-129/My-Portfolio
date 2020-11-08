@@ -273,7 +273,7 @@ width:100%;
   float: right;
 }
 
-@media (max-width:1028px) {
+@media (max-width:500px) {
   #title {
     text-align: center;
   }
