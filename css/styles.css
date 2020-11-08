@@ -1,17 +1,7 @@
-
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  font-family: sans-serif;
-
-}
 #title {
   background: #ff4c68;
   padding: 3% 15% 7%;
-  
+
 }
 
 html {
@@ -25,11 +15,6 @@ body {
 
 }
 #courses
-{
-  background: #f8f8fa;
-  padding: 50px 0;
-}
-#project
 {
   background: #f8f8fa;
   padding: 50px 0;
@@ -133,7 +118,9 @@ h1 {
   padding-left: 10%;
 
 }
-
+.container-fluid{
+padding: 0;
+}
 
 
 #features {
@@ -203,38 +190,6 @@ h2 {
   font-size: 60px
 }
 
-#project {
-  background: #ff4c68;
-  padding: 10% 0;
-  padding-top: 5%;
-
-
-
-}
-
-.project-img {
-  text-align: center;
-
-}
-
-.project-thumbnails {
-
-  margin: 0 3px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
-
-
-
-
-
-}
-
-.project-thumbnails:hover {
-  box-shadow: 2px 2px 4px #000000;
-}
-
 
 #footer {
   padding: 100px 70px 0;
@@ -288,21 +243,43 @@ width:100%;
   float: right;
 }
 
-@media (min-width: 40.5em) {
+@media screen and(max-width:1028px) {
   #title {
     text-align: center;
   }
-  #myprojects{
-      width: auto;
-    float: none;
-  }
-  #courses{
-      width: auto;
-    float: none;
-  }
-  #project{
-     width: auto;
-    float: none; 
-  }
 
+} 
+
+#project {
+  background: #ff4c68;
+  padding: 10%;
+
+  
+
+
+
+}
+
+.project-img {
+  text-align: center;
+
+}
+
+.project-thumbnails {
+ width: 100%;
+ height: auto;
+  margin: 0 3px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+
+
+
+
+}
+
+.project-thumbnails:hover {
+  box-shadow: 2px 2px 4px #000000;
 }
