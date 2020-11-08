@@ -29,6 +29,11 @@ body {
   background: #f8f8fa;
   padding: 50px 0;
 }
+#project
+{
+  background: #f8f8fa;
+  padding: 50px 0;
+}
 .courses-details{
   box-shadow: 0 2px 70px 0 rgba(110,130,208,0.18);
   border-radius: 5px;
