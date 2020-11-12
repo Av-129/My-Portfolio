@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  
   margin: 0;
 }
 
@@ -33,7 +34,7 @@ body {
 .courses-update .fa{
   margin-top: 5px;
   margin-right: 10px;
-  color: #77d1b1;
+  color: #OOO;
 
 
 
@@ -142,15 +143,53 @@ padding: 0;
   font-size: larger;
 }
 
-.content li:hover {
-  color: red;
-}
+
 
 .skills {
   padding: 2% 5% 0;
 
 }
+.skills ul{
+  position: relative;
+}
+.skills ul li{
+  position: relative;
+  left: 0;
+  list-style: none;
+  margin: 10px 10px;
+padding-bottom: 0 !important;
+border-left: 4px solid #00d4ff;
+   transition: 0.5%;
+   cursor: pointer;
+   font-size: 15px;
+}
+.skills ul li:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background:#00d4ff;
+  transform: scaleX(0);
+  transition: 0.5%;
+  transform-origin: left; 
+}
+.skills ul li:hover{
+  left: 10px;
+}
+.skills ul li span{
+  position: relative;
+  padding: 8px;
+  display: inline-block;
+  z-index: 1;
+  transition: 0.5%;
+}
+.skills ul li:hover span{
+ background: #00d4ff;
+ border-radius: 15px;
+ width: 100%;
+ margin-left: 5px;
 
+}
 
 .Feature {
   padding: 3%;
@@ -256,9 +295,6 @@ width:100%;
 #project {
   background: #ff4c68;
   padding: 10%;
-
-  
-
 
 
 }
